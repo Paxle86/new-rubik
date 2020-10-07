@@ -3,6 +3,12 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
 
 $font-stack-main: 'Poppins', sans-serif;
 $font-stack-second: 'Josefin Sans', sans-serif;

@@ -1,0 +1,14 @@
+.nav-list {
+	display: flex;
+	li {
+		padding: 0 25px;
+		text-transform: uppercase;
+		transition: all 0.3s linear;
+		width: fit-content;
+		&:hover {
+			background-color: blue;
+			color: #fff;
+			cursor: pointer;
+		}
+	}
+}
