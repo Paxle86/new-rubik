@@ -1,10 +1,19 @@
 import React from 'react'
-import Slide from '../components/Slide'
+import styled from 'styled-components';
+
+
+
+const Wraper = styled.h1`
+	color:red;
+`
 
 const Home = () => {
+
 	return (
 		<div>
-			<Slide />
+			<Wraper className='logo'>
+				Noi that Rubik
+			</Wraper>
 		</div>
 	)
 }

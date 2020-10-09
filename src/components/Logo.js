@@ -1,10 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import styled from 'styled-components'
+
+const StyledP = styled.p`
+	color: red;
+`
 const Logo = () => {
 	return (
 		<div>
 			<Link to='/'>
-				<p>Rubik Interior</p>
+				<StyledP >Rubik Interior</StyledP>
 			</Link>
 		</div>
 	)
